@@ -17,12 +17,6 @@ public class Warrior extends Human {
         
         super(name, attackPoints, defensePoints, life);
         
-        if (attackPoints < 5){
-            
-            this.setAttackPoints(0);
-            
-        }
-        
         System.out.println("CONSTRUCTOR -> He creat un Warrior");
         
     }
