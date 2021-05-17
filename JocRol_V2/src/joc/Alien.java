@@ -15,6 +15,20 @@ public class Alien extends Player {
         
         super(name, attackPoints, defensePoints, life);
         
+        if (life > 20){
+            
+            int resultado;
+            resultado = attackPoints + 3;
+            
+            this.setAttackPoints(resultado);
+            
+            int resultado2;
+            resultado2 = defensePoints - 3;
+            
+            this.setDefensePoints(resultado2);
+            
+        }
+        
         System.out.println("CONSTRUCTOR -> He creat un Alien");
         
     }

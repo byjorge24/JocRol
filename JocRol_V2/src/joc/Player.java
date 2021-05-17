@@ -38,7 +38,7 @@ public abstract class Player {
         /** ATAC **/
         if (jugador.getLife() > 0 && this.getLife() > 0){
             
-            jugador.hit(attackPoints);
+            jugador.hit(this.getAttackPoints());
             
         }
         
@@ -46,7 +46,7 @@ public abstract class Player {
         
         if (jugador.getLife() > 0 && this.getLife() > 0){
             
-            this.hit(attackPoints);
+            this.hit(jugador.getAttackPoints());
             
         }
         

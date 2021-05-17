@@ -15,6 +15,12 @@ public class Human extends Player {
         
         super(name, attackPoints, defensePoints, life);
         
+        if (life > 100){
+            
+            this.setLife(100);
+            
+        }
+        
         System.out.println("CONSTRUCTOR -> He creat un Huma");
         
     }
