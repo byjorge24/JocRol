@@ -49,7 +49,7 @@ public class JocRol {
                 
                 System.out.println("----FIGHT MENU----");
                 
-                Human human2 = new Human("Paco", 10, 5, 50);
+                Human human2 = new Human("Paco", 10, 5, 200);
                 Warrior warrior2 = new Warrior("Segismundo", 15, 0, 60);
                 Alien alien2 = new Alien("Miguel", 5, 15, 70);
                 
