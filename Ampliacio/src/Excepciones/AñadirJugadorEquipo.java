@@ -6,20 +6,14 @@
 package Excepciones;
 
 /**
- *
+ * Excepcion para cuando añadimos un jugador a un equipo
  * @author alumne
  */
-public class JugadorMort extends Exception {
+public class AñadirJugadorEquipo extends Exception {
     
-    public JugadorMort(String message){
+    public AñadirJugadorEquipo(String message){
         
         super(message);
-        
-    }
-    
-    public JugadorMort(){
-        
-        super("");
         
     }
     

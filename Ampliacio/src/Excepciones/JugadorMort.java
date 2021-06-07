@@ -6,7 +6,7 @@
 package Excepciones;
 
 /**
- *
+ * Excepcion cuando un jugador muere no puede atacar
  * @author alumne
  */
 public class JugadorMort extends Exception {

@@ -6,20 +6,14 @@
 package Excepciones;
 
 /**
- *
+ * Excepcion para cuando eliminamos un jugador que no esta en el equipo
  * @author alumne
  */
-public class JugadorMort extends Exception {
+public class EliminarJugador extends Exception {
     
-    public JugadorMort(String message){
+    public EliminarJugador(String message){
         
         super(message);
-        
-    }
-    
-    public JugadorMort(){
-        
-        super("");
         
     }
     

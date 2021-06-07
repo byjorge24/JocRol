@@ -6,20 +6,14 @@
 package Excepciones;
 
 /**
- *
+ * Excepcion cuando un jugador se ataca a si mismo
  * @author alumne
  */
-public class JugadorMort extends Exception {
+public class JugadorAtaque extends Exception {
     
-    public JugadorMort(String message){
+    public JugadorAtaque(String message){
         
         super(message);
-        
-    }
-    
-    public JugadorMort(){
-        
-        super("");
         
     }
     
